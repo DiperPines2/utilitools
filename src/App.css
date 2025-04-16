@@ -1,0 +1,67 @@
+/* Estilos do cabeçalho fixo */
+.header {
+  background-color: #007bff;
+  color: white;
+  padding: 16px 32px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  left: 0;
+}
+
+.header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+nav {
+  margin-right: 50px;
+}
+
+nav button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+
+nav button:hover {
+  background-color: #218838;
+}
+
+/* Espaço para o conteúdo abaixo do cabeçalho */
+main {
+  padding-top: 80px; /* Compensar o cabeçalho fixo */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  gap: 32px;
+}
+
+/* Estilos das seções */
+section {
+  width: 100%;
+  max-width: 800px;
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Ajustar o botão ativo */
+button:focus {
+  outline: none;
+  box-shadow: 0 0 3px 3px rgba(0, 123, 255, 0.5);
+}
