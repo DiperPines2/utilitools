@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import GeradorSenhas from './pages/GeradorSenhas';
 import ContadorPalavras from './pages/ContadorPalavras';
 import ConversorTemperatura from './pages/ConversorTemperatura';
